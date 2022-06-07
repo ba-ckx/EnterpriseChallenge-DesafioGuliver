@@ -4,6 +4,11 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .text-purple {
     color: #AC58F5;
 }
@@ -49,3 +54,71 @@
     padding: auto;
 }
 
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #F8FBFE;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background-color: #AC58F5;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background-color: #F8FBFE;
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nome {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.localizacao {
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 960px) {
+.col {
+    flex: 100%;
+    max-width: 80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+    }
