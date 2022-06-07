@@ -68,11 +68,11 @@
     padding: 0 20px;
 }
 
-.border {
-    width: 160px;
-    height: 5px;
+.border_linha {
+    width: 25vw;
+    height: 3px;
     background-color: #AC58F5;
-    margin: 26px auto;
+    margin: 2rem auto;
 }
 
 .row {
