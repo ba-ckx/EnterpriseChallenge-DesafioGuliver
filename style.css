@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Poppins:wght@600&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+.text-purple {
+    color: #AC58F5;
+}
+
+.text-white {
+    color: #F8FBFE;
+}
+
+.bg-purple {
+    background-color: #AC58F5;
+}
+
+.navbar-principal {
+    font-family:'Poppins', sans-serif;
+
+}
+
+.btn-1 {
+    background-color: #F8FBFE;
+    color: #AC58F5;
+}
+
+.btn-2 {
+    background-color: #AC58F5;
+    color: #F8FBFE;
+}
+
+.text-h1, .text-h2 {
+    font-family: 'Merriweather', serif;
+}
+
+.text-h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #AC58F5;
+}
+
+.slide-4 {
+    background-color: #A3A8AE;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    padding: auto;
+}
+
