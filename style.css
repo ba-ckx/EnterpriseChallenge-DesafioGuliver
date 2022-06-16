@@ -60,7 +60,6 @@
   color: #fff !important;
 }
 
-
 .text-purple {
     color: var(--primary-color);
 }
@@ -75,17 +74,21 @@
 
 .navbar-principal {
     font-family:'Poppins', sans-serif;
-
+    background-color: #F8FBFE;
 }
 
 .btn-1 {
     background-color: #F8FBFE;
     color: var(--primary-color);
+    border-radius: 1.1rem;
+    padding: 0.5rem 3rem;
 }
 
 .btn-2 {
     background-color: var(--primary-color);
     color: #F8FBFE;
+    border-radius: 1.1rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .header {
@@ -174,6 +177,29 @@
     margin: 10px 0;
 }
 
+.newsletter {
+background-color: #0F172A;
+}
+
+.newsletter h1 {
+    color: #F8FBFE;
+}
+
+.newsletter-input {
+    border: 0 none;
+    border-radius: 0.9rem;
+}
+
+.newsletter-btn {
+    border-radius: 2.1rem;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #F8FBFE;
+    padding: 0.5rem 0.7rem;
+    background-color: var(--primary-color);
+    border: none;
+}
+
 .footer-links {
     color: var(--tertiary-color);
     font-weight: 600;
@@ -183,6 +209,11 @@
 
 .footer-links:hover {
     color: var(--primary-color);
+}
+
+.icones-footer {
+    color: var(--primary-color);
+    font-size: 2.1rem;
 }
 
 @media screen and (max-width: 960px) {
