@@ -26,7 +26,7 @@ function decreaseFont() {
     }
   }
 
-  // ALTO CONTRAST
+  // ALTO CONTRASTE
 const Contrast = {
     storage: 'contrastState',
     cssClass: 'contrast',

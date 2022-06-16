@@ -4,6 +4,13 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
+:root {
+    --primary-color: #AC58F5;
+    --secondary-color: #64748B;
+    --tertiary-color: rgba(39, 36, 68, 0.5);
+    --dark-color: #0F172A;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +27,7 @@
 .contrast section,
 .contrast main,
 .contrast aside,
-.contrast article {
+.contrast article{
   background: #000 !important;
   color: #fff !important;
 }
@@ -45,6 +52,7 @@
 .contrast em,
 .contrast cite,
 .contrast q,
+.contrast a,
 .contrast i,
 .contrast b,
 .contrast u,
@@ -54,7 +62,7 @@
 
 
 .text-purple {
-    color: #AC58F5;
+    color: var(--primary-color);
 }
 
 .text-white {
@@ -72,16 +80,25 @@
 
 .btn-1 {
     background-color: #F8FBFE;
-    color: #AC58F5;
+    color: var(--primary-color);
 }
 
 .btn-2 {
-    background-color: #AC58F5;
+    background-color: var(--primary-color);
     color: #F8FBFE;
 }
 
 .header {
     background-image: url(./image/background-header.svg);
+}
+
+.header-titulo {
+    font-size: 5rem;
+}
+
+.header-subtitulo{
+    color: var(--tertiary-color);
+    font-weight: 700;
 }
 
 .text-h1, .text-h2 {
@@ -155,6 +172,17 @@
 
 .localizacao {
     margin: 10px 0;
+}
+
+.footer-links {
+    color: var(--tertiary-color);
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+.footer-links:hover {
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 960px) {
