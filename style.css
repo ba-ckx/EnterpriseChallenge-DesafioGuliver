@@ -80,6 +80,10 @@
     color: #F8FBFE;
 }
 
+.header {
+    background-image: url(./image/background-header.svg);
+}
+
 .text-h1, .text-h2 {
     font-family: 'Merriweather', serif;
 }
