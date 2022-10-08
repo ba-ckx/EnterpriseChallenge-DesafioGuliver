@@ -4,64 +4,22 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
-:root {
-    --primary-color: #AC58F5;
-    --secondary-color: #64748B;
-    --tertiary-color: rgba(39, 36, 68, 0.5);
-    --dark-color: #0F172A;
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/* CORES EM ALTO CONTRASTE */
-.contrast,
-.contrast nav,
-.contrast div,
-.contrast li,
-.contrast ol,
-.contrast header,
-.contrast footer,
-.contrast section,
-.contrast main,
-.contrast aside,
-.contrast article{
-  background: #000 !important;
-  color: #fff !important;
+.text-h1 {
+    font-family: 'Merriweather';
 }
 
-.contrast section {
-  border: 1px solid #fff;
-}
-
-.contrast {
-  padding: 1rem;
-}
-
-.contrast h1,
-.contrast h2,
-.contrast h3,
-.contrast h4,
-.contrast h5,
-.contrast h6,
-.contrast p,
-.contrast label,
-.contrast strong,
-.contrast em,
-.contrast cite,
-.contrast q,
-.contrast a,
-.contrast i,
-.contrast b,
-.contrast u,
-.contrast span {
-  color: #fff !important;
+.text-h6 {
+    font-family: 'Poppins';
+    color: #AC58F5;
 }
 
 .text-purple {
-    color: var(--primary-color);
+    color: #AC58F5;
 }
 
 .text-white {
@@ -73,47 +31,144 @@
 }
 
 .navbar-principal {
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #AC58F5;
+}
+
+.barra-pesquisa {
+    padding: 1em;
+    margin: 3em;
+    border-radius: 25px;
+    box-shadow: 0px 10px 30px 0px rgba(000, 000, 000, 0.25);
+    width: 60vw;
+}
+
+.barra-pesquisa input {
+    border: none;
+}
+
+.imagens-slide-0 {
+    background-image: url(./image/black-halftone-hexagon-dotted-world-map-vector-illustration-flat-design-isolated-white-144834553-removebg-preview_1.png);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 5em;
+    left: 12%;
+    z-index: -3;
+}
+
+.imagens-slide-1 {
+    background-image: url(./image/Rectangle_5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.imagens-slide-2 {
+    background-image: url(./image/Pngtreeairplane_travel_tourism_supplies_6374202_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -3em;
+    z-index: -1;
+}
+
+.barra-pesquisa .btn {
+    background-color: #64748B;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 1em;
+}
+
+.btn-1,
+.btn-2 {
+    border-radius: 0.75em;
+    font-size: 14px;
 }
 
 .btn-1 {
     background-color: #F8FBFE;
-    color: var(--primary-color);
-    border-radius: 1.1rem;
-    padding: 0.5rem 3rem;
+    color: #AC58F5;
 }
 
 .btn-2 {
-    background-color: var(--primary-color);
+    background-color: #AC58F5;
     color: #F8FBFE;
-    border-radius: 1.1rem;
-    padding: 0.5rem 1.5rem;
-}
-
-.header {
-    background-image: url(./image/background-header.svg);
 }
 
 .header-titulo {
-    font-size: 5rem;
-}
-
-.header-subtitulo{
-    color: var(--tertiary-color);
-    font-weight: 700;
-}
-
-.text-h1, .text-h2 {
     font-family: 'Merriweather', serif;
+    font-size: 70px;
 }
 
-.text-h6 {
-    font-family: 'Poppins', sans-serif;
-    color: #AC58F5;
+.header-subtitulo {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+}
+
+.card-avaliacao {
+    border-radius: 0 0 1.5em 1.5em;
+
+}
+.card-avaliacao .card-text {
+    font-family: 'Poppins';
+    min-height: 40px;
 }
 
 .slide-4 {
     background-color: #A3A8AE;
+    font-family: 'Merriweather';
+}
+
+
+.imagens-slide-3 {
+    background-image: url(./image/Rectangle_21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 1250px;
+    bottom: -3em;
+    z-index: -1;
+}
+
+.imagens-slide-4 {
+    background-image: url(./image/Pngtreepink_car_travel_3d_element_5356963_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    right: 15px;
+    top: 1200px;
+    bottom: -3em;
+    z-index: -1;
+}
+
+.slide-5 {
+    text-align: center;
+    padding: 30px;
 }
 
 .card-title {
@@ -135,11 +190,12 @@
     padding: 0 20px;
 }
 
-.border_linha {
+.border-linha {
     width: 25vw;
-    height: 3px;
+    height: 1px;
     background-color: #AC58F5;
     margin: 2rem auto;
+
 }
 
 .row {
@@ -176,50 +232,11 @@
     margin: 10px 0;
 }
 
-.newsletter {
-background-color: #0F172A;
-}
-
-.newsletter h1 {
-    color: #F8FBFE;
-}
-
-.newsletter-input {
-    border: 0 none;
-    border-radius: 0.9rem;
-}
-
-.newsletter-btn {
-    border-radius: 2.1rem;
-    font-size: 0.9em;
-    text-decoration: none;
-    color: #F8FBFE;
-    padding: 0.5rem 0.7rem;
-    background-color: var(--primary-color);
-    border: none;
-}
-
-.footer-links {
-    color: var(--tertiary-color);
-    font-weight: 600;
-    text-decoration: none;
-    padding-top: 2px;
-}
-
-.footer-links:hover {
-    color: var(--primary-color);
-}
-
-.icones-footer {
-    color: var(--primary-color);
-    font-size: 2.1rem;
-}
-
 @media screen and (max-width: 960px) {
-.col {
-    flex: 100%;
-    max-width: 80%;
-}
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -227,4 +244,4 @@ background-color: #0F172A;
         flex: 100%;
         max-width: 100%;
     }
-    }
+}
