@@ -26,8 +26,7 @@
 
 <body>
     <!-- navbar principal  -->
-    <main class="navbar-principal">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-principal">
             <div class="container-fluid">
                 <a class="navbar-brand ms-4" href="#"><i class="fa-solid fa-paper-plane"></i> GLVR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -64,14 +63,13 @@
 
                         </li>
                     </ul>
-                    <div class="d-flex gap-2 float-end">
-                        <button class="btn btn-1 btn-light me-md-2 px-4" type="button">Entrar</button>
-                        <button class="btn btn-2 px-4" type="button">Cadastrar-se</button>
-                    </div>
                 </div>
             </div>
         </nav>
-    </main>
+        <div class="d-flex gap-2 float-end botao-entrar-cadastrar">
+            <button class="btn btn-1 btn-light me-md-2 px-4" type="button">Entrar</button>
+            <button class="btn btn-2 px-4" type="button">Cadastrar-se</button>
+        </div>
     <!-- fim navbar principal  -->
 
     <!-- Slide 1  -->
@@ -115,7 +113,7 @@
 
 
     <!-- Slide 2  -->
-    <main class="container-fluid p-5 slide-2">
+    <div class="container-fluid p-5 slide-2">
         <h6 class="text-uppercase text-purple text-center">MELHORES DESTINOS</h6>
         <h2 class="header-subtitulo text-center pt-2 pb-5
         ">Explore os Melhores Destinos</h2>
@@ -196,7 +194,7 @@
                 </div>
             </div>
         </section>
-    </main>
+    </div>
     <!-- Fim slide 2  -->
 
     <!-- Slide 3  -->
@@ -368,7 +366,133 @@
 
     <!-- Fim Slide 5  -->
 
+    <!-- Footer -->
+    <section class="">
+        <!-- Footer -->
+        <footer class="bg-light text-black">
+          <div class="container p-5">
+            <div class="row">
 
+              <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                <h5 class="text-uppercase"><i class="fa-solid fa-paper-plane"></i> GLVR</h5>
+                <p class="pt-3 footer-links">
+                  Viajar nunca foi tão fácil! Nos acompanhe as redes sociais:
+                </p>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-left">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm icones-footer"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm icones-footer"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm icones-footer"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 mb-2 mb-md-0">
+                <h5 class="footer-titulo">Companhia</h5>
+      
+                <ul class="list-unstyled mb-0 pt-3">
+                  <li>
+                    <a href="#!" class="footer-links">Sobre nós</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Destinos</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Passagens</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Fale conosco</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="col-lg-2 col-md-4 mb-2 mb-md-0">
+                <h5 class="footer-titulo">Ajuda</h5>
+      
+                <ul class="list-unstyled pt-3">
+                  <li>
+                    <a href="#!" class="footer-links">SAC</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Cancele a viagem</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 col-md-4 mb-2 mb-md-0">
+                <h5 class="footer-titulo">Mais</h5>
+      
+                <ul class="list-unstyled pt-3">
+                  <li>
+                    <a href="#!" class="footer-links">Voos domésticos</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Parcerias</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Trabalhos</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 col-md-4 mb-2 mb-md-0">
+                <h5 class="footer-titulo">Termos</h5>
+      
+                <ul class="list-unstyled pt-3">
+                  <li>
+                    <a href="#!" class="footer-links">Política privada</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Termos de uso</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footer-links">Acessibilidade</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> Projeto Gulliver | Todos os direitos reservados ©
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </section>
+    <!-- Fim Footer -->
+
+        <!-- Leitor Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+        <!-- Fim Leitor Libras -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
 
 </body>
 

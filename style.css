@@ -4,10 +4,45 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
+:root {
+    --primary-color: #AC58F5;
+    --secondary-color: #64748B;
+    --tertiary-color: rgba(39, 36, 68, 0.5);
+    --dark-color: #0F172A;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
+.contrast section {
+    border: 1px solid #fff;
+  }
+  
+  .contrast {
+    padding: 1rem;
+  }
+  
+  .contrast h1,
+  .contrast h2,
+  .contrast h3,
+  .contrast h4,
+  .contrast h5,
+  .contrast h6,
+  .contrast p,
+  .contrast label,
+  .contrast strong,
+  .contrast em,
+  .contrast cite,
+  .contrast q,
+  .contrast a,
+  .contrast i,
+  .contrast b,
+  .contrast u,
+  .contrast span {
+    color: #fff !important;
+  }
 
 .text-h1 {
     font-family: 'Merriweather';
@@ -32,7 +67,8 @@
 
 .navbar-principal {
     font-family: 'Poppins', sans-serif;
-    margin: 10px;
+    background-color: #fff ;
+    z-index: 1 ;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -42,6 +78,10 @@
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #AC58F5;
+}
+
+.botao-entrar-cadastrar {
+    z-index: 1;
 }
 
 .barra-pesquisa {
@@ -230,6 +270,17 @@
 
 .localizacao {
     margin: 10px 0;
+}
+
+.footer-links {
+    color: var(--tertiary-color);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.icones-footer {
+    color: var(--primary-color);
+    font-size: 2.1rem;
 }
 
 @media screen and (max-width: 960px) {
