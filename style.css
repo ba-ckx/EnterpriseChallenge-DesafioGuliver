@@ -201,11 +201,11 @@
   background-image: url(./image/Pngtreepink_car_travel_3d_element_5356963_1.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 40vw;
+  width: 35vw;
   height: 100%;
   position: absolute;
   right: 15px;
-  top: 1250px;
+  top: 1200px;
   bottom: -3em;
   z-index: -1;
 }
