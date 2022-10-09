@@ -98,7 +98,7 @@
 }
 
 .imagens-slide-0 {
-  background-image: url(./image/black-halftone-hexagon-dotted-world-map-vector-illustration-flat-design-isolated-white-144834553-removebg-preview_1.png);
+  background-image: url(./images/background/map.png);
   background-size: 70% 70%;
   background-repeat: no-repeat;
   width: 80vw;
@@ -110,7 +110,7 @@
 }
 
 .imagens-slide-1 {
-  background-image: url(./image/Rectangle_5.png);
+  background-image: url(./images/background/rectangle-down.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 40vw;
@@ -122,7 +122,7 @@
 }
 
 .imagens-slide-2 {
-  background-image: url(./image/Pngtreeairplane_travel_tourism_supplies_6374202_1.png);
+  background-image: url(./images/background/airplane.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 40vw;
@@ -180,12 +180,12 @@
 }
 
 .slide-4 {
-  background-color: #a3a8ae;
+  background-color: #ededec;
   font-family: "Merriweather";
 }
 
 .imagens-slide-3 {
-  background-image: url(./image/Rectangle_21.png);
+  background-image: url(./images/background/rectangle-up.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 40vw;
@@ -198,7 +198,7 @@
 }
 
 .imagens-slide-4 {
-  background-image: url(./image/Pngtreepink_car_travel_3d_element_5356963_1.png);
+  background-image: url(./images/background/pink-car.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 40vw;
@@ -222,8 +222,6 @@
 
 .testimonials {
   padding: 40px 0;
-  text-align: center;
-  background-color: #f8fbfe;
   text-align: center;
 }
 
@@ -255,7 +253,8 @@
 }
 
 .testimonial {
-  background-color: #f8fbfe;
+  background-color: rgb(249, 248, 248);
+  height: 100%;
   padding: 30px;
 }
 
@@ -313,6 +312,10 @@
 .icones-footer {
   color: var(--primary-color);
   font-size: 2.1rem;
+}
+
+.tipos-imagens {
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 430px) {
