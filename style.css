@@ -200,6 +200,14 @@ a {
   height: 70px;
 }
 
+.card-restaurante {
+  font-family: "Poppins";
+  min-height: 40px;
+  text-align : center;
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+
 .slide-4 {
   background-color: #ededec;
   font-family: "Merriweather";
