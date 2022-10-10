@@ -232,6 +232,16 @@ a {
   width: 250px;
 }
 
+.header-titulo {
+  font-family: "Merriweather", serif;
+  font-size: 70px;
+}
+
+.header-subtitulo {
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+
 
 @media screen and (max-width: 430px) {
   .header-titulo {
