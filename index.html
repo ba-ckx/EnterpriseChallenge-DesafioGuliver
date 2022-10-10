@@ -26,52 +26,50 @@
 
 <body>
     <!-- navbar principal  -->
-    <main class="navbar-principal">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand ms-4" href="#"><i class="fa-solid fa-paper-plane"></i> GLVR</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./destinos.html">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <span class="material-symbols-outlined text-black"><span> contrast</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
-                                    text_increase
-                                </span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
-                                    text_decrease
-                                </span></a>
+    <nav class="navbar navbar-expand-lg ps-5 pe-5 navbar-light navbar-principal ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-paper-plane"></i> GLVR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <menu class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
 
-                        </li>
-                    </ul>
-                    <div class="d-flex gap-2 float-end">
-                        <button class="btn btn-1 btn-light me-md-2 px-4" type="button">Entrar</button>
-                        <button class="btn btn-2 px-4" type="button">Cadastrar-se</button>
-                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destinos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+                    <div class="d-flex align-items-center acessibilidade">
+                        <div class="font me-1"> 
+                        <a class="nav-link" href="#">
+                            <span class="material-symbols-outlined text-black" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><span> contrast</span></a>
+                        </div>
+                        <a class="nav-link" href="#" onclick="increaseFont()"><span class="material-symbols-outlined text-black">
+                                text_increase
+                            </span></a>
+                        <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
+                                text_decrease
+                            </span></a>
+                        </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-1 btn-light me-md-2" type="button">Entrar</button>
+                    <button class="btn btn-2" type="button">Cadastrar-se</button>
                 </div>
-            </div>
-        </nav>
-    </main>
+            </menu>
+        </div>
+    </nav>
     <!-- fim navbar principal  -->
 
     <!-- Slide 1  -->
@@ -82,7 +80,7 @@
         <div class="container p-5 slide-1 pb-2">
             <h5 class="text-purple">O melhor site de viagem do Brasil</h5>
             <h1 class="header-titulo py-4">Viajar nunca<br> foi tão <span class="text-purple">fácil</span>!</h1>
-            <h5 class="text-muted"><br>Faça suas férias dos sonhos sair do papel, e torne-as inesquecíveis</h5>
+            <h5 class="text-muted">Faça suas férias dos sonhos sair do papel, e torne-as inesquecíveis</h5>
         </div>
 
         <div class="container ps-0">
