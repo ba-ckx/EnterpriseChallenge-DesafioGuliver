@@ -72,7 +72,6 @@ a {
 
 .navbar-principal {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
   z-index: 1;
 }
 
@@ -359,4 +358,13 @@ a {
   .input-group {
     width: 100%;
 }
+}
+
+.entretenimento {
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.noturno-imagens {
+  height: 120px;
 }
