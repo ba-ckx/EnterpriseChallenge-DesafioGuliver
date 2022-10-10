@@ -26,50 +26,50 @@
 
 <body>
     <!-- navbar principal  -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-principal">
+    <nav class="navbar navbar-expand-lg ps-5 pe-5 navbar-light navbar-principal ">
         <div class="container-fluid">
-            <a class="navbar-brand ms-4" href="#"><i class="fa-solid fa-paper-plane"></i> GLVR</a>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-paper-plane"></i> GLVR</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+            <menu class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sobre nós</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Destinos</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contato</a>
                     </li>
-                    <li class="nav-item">
+                </ul>
+                    <div class="d-flex align-items-center acessibilidade">
+                        <div class="font me-1"> 
                         <a class="nav-link" href="#">
-                            <span class="material-symbols-outlined text-black"><span> contrast</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
+                            <span class="material-symbols-outlined text-black" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><span> contrast</span></a>
+                        </div>
+                        <a class="nav-link" href="#" onclick="increaseFont()"><span class="material-symbols-outlined text-black">
                                 text_increase
                             </span></a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
                                 text_decrease
                             </span></a>
-
-                    </li>
-                </ul>
-            </div>
+                        </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-1 btn-light me-md-2" type="button">Entrar</button>
+                    <button class="btn btn-2" type="button">Cadastrar-se</button>
+                </div>
+            </menu>
         </div>
     </nav>
-    <div class="d-flex gap-2 float-end botao-entrar-cadastrar">
-        <button class="btn btn-1 btn-light me-md-2 px-4" type="button">Entrar</button>
-        <button class="btn btn-2 px-4" type="button">Cadastrar-se</button>
-    </div>
     <!-- fim navbar principal  -->
 
     <!-- Slide 1  -->

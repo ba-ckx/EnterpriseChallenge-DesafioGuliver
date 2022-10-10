@@ -101,14 +101,20 @@
   color: #f8fbfe;
 }
 
-.header-titulo {
-  font-family: "Merriweather", serif;
-  font-size: 70px;
+.carousel-inner-header img {
+  height: 80vh;
+  object-fit: cover;
 }
 
-.header-subtitulo {
-  font-family: "Merriweather", serif;
-  font-size: 36px;
+.carousel-header-texto {
+  top: 20%;
+  right: 90% ;
+}
+
+.carousel-header-texto h1 {
+  font-family: "Merriweather";
+  font-size: 6.1rem;
+  text-shadow: 2px 2px #0f172a;
 }
 
 .card-restaurante {
