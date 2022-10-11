@@ -137,6 +137,28 @@ a {
   text-shadow: 2px 2px #0f172a;
 }
 
+.container-hospedagem {
+  background-color: #A3A8AE;
+}
+
+.hospedagem-wrapper {
+  display: flex;
+  width: 125vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hospedagem-wrapper .card {
+  margin: 0 .5em;
+  width: calc(100%/4);
+  border-radius: 30px;
+}
+
+.hospedagem-wrapper .card img {
+  border-radius: 30px;
+}
+
+
 .card-restaurante {
   font-family: "Poppins";
   min-height: 40px;
@@ -224,6 +246,8 @@ a {
   color: #fff;
   border-radius: 20px;
   padding: 7px;
+  border: 1px solid #fff;
+  width: 160px;
 }
 
 .btn:hover {
@@ -295,6 +319,10 @@ a {
 
   .input-group {
     width: 100%;
+  }
+  
+  .card:not(:first-child) {
+    display: none;
   }
 }
 
