@@ -314,3 +314,27 @@ a {
   top: 6rem;
   z-index: -1;
 }
+
+.imagem-slide-7 {
+  background-image: url(../image/Rectangle_5_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.imagem-slide-7b {
+  background-image: url(../image/Rectangle_5_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 90vw;
+  bottom: 50px;
+  z-index: -1;
+}
