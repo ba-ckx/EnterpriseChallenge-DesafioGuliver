@@ -290,3 +290,27 @@ a {
     width: 100%;
   }
 }
+
+.imagem-slide-8 {
+  background-image: url(../image/Rectangle_6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -10vw;
+  top: 0px;
+  z-index: -1;
+}
+
+.imagem-slide-8b {
+  background-image: url(../image/Schedule.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  left: 18rem;
+  top: 6rem;
+  z-index: -1;
+}
