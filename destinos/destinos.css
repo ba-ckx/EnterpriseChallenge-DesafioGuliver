@@ -115,6 +115,22 @@ a {
   right: 90% ;
 }
 
+.carousel-inner-header img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-header-texto {
+  top: 20%;
+  right: 90% ;
+}
+
+.carousel-header-texto h1 {
+  font-family: "Merriweather";
+  font-size: 6.1rem;
+  text-shadow: 2px 2px #0f172a;
+}
+
 .carousel-header-texto h1 {
   font-family: "Merriweather";
   font-size: 6.1rem;
@@ -128,60 +144,56 @@ a {
   border-radius: 0 0 1.5em 1.5em;
 }
 
-.testimonials {
-  padding: 40px 0;
-  text-align: center;
-  background-color: #f8fbfe;
-  text-align: center;
+
+
+.imagem-slide-7 {
+  background-image: url(./image/Rectangle_5_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
-.inner {
-  max-width: 1200px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 20px;
+.imagem-slide-7b {
+  background-image: url(./image/Rectangle_5_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 90vw;
+  bottom: 50px;
+  z-index: -1;
 }
 
-.border-linha {
-  width: 25vw;
-  height: 1px;
-  background-color: #ac58f5;
-  margin: 2rem auto;
+.imagem-slide-8 {
+  background-image: url(./image/Rectangle_6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -10vw;
+  top: 0px;
+  z-index: -1;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.imagem-slide-8b {
+  background-image: url(./image/Schedule.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  left: 18rem;
+  top: 6rem;
+  z-index: -1;
 }
 
-.col {
-  flex: 25%;
-  max-width: 25%;
-  box-sizing: border-box;
-  padding: 15px;
-}
-
-.testimonial {
-  background-color: #f8fbfe;
-  padding: 30px;
-}
-
-.testimonial img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.input-group {
-  width: 50%;
-}
-
-.newsletter-input {
-  border: 0 none;
-  border-radius: 0.9rem;
-  font-family: "Poppins";
-}
 
 .footer-links {
   color: var(--tertiary-color);
