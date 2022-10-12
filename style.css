@@ -49,6 +49,8 @@ a {
   color: #fff !important;
 }
 
+/* -- TEXTOS -- */
+
 .text-h1 {
   font-family: "Merriweather";
 }
@@ -70,8 +72,64 @@ a {
   background-color: #ac58f5;
 }
 
+.header-titulo {
+  font-family: "Merriweather", serif;
+  font-size: 70px;
+}
+
+.header-subtitulo {
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+
+/* -- BOTÕES -- */
+
+.botao-entrar-cadastrar {
+  z-index: 1;
+}
+
+.btn {
+  background-color: #ac58f5;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.btn-1,
+.btn-2 {
+  border-radius: 0.75em;
+  font-size: 14px;
+}
+
+.btn-1 {
+  background-color: #f8fbfe;
+  color: #ac58f5;
+}
+
+.btn-2 {
+  background-color: #ac58f5;
+  color: #f8fbfe;
+}
+
+.btn-3 {
+  background-color: #ac58f5;
+  font-family: 'Poppins';
+  color: #fff;
+  border-radius: 20px;
+  padding: 7px;
+  min-width: 160px;
+  max-width: 300px;
+}
+
+.btn-3:hover {
+  background-color: #fff;
+  border: 1px solid #ac58f5;
+  color: #ac58f5;
+}
+
+/* -- NAVBAR -- */
+
 .navbar-principal {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   z-index: 1;
 }
 
@@ -84,21 +142,7 @@ a {
   color: #ac58f5;
 }
 
-.botao-entrar-cadastrar {
-  z-index: 1;
-}
-
-.barra-pesquisa {
-  padding: 1em;
-  margin: 3em;
-  border-radius: 25px;
-  box-shadow: 0px 10px 30px 0px rgba(000, 000, 000, 0.25);
-  width: 60vw;
-}
-
-.barra-pesquisa input {
-  border: none;
-}
+/* -- HERO -- */
 
 .imagens-slide-0 {
   background-image: url(./images/background/map.png);
@@ -136,55 +180,26 @@ a {
   z-index: -1;
 }
 
-.barra-pesquisa .btn {
-  background-color: #64748b;
+.barra-pesquisa {
+  padding: 1em;
+  margin: 3em;
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px 0px rgba(000, 000, 000, 0.25);
+  width: 60vw;
+}
+
+.barra-pesquisa input {
+  border: none;
+}
+
+.barra-pesquisa btn {
+  background-color: #8b7064;
   max-width: 80px;
   max-height: 80px;
   border-radius: 1em;
 }
 
-.btn-1,
-.btn-2 {
-  border-radius: 0.75em;
-  font-size: 14px;
-}
-
-.btn-1 {
-  background-color: #f8fbfe;
-  color: #ac58f5;
-}
-
-.btn-2 {
-  background-color: #ac58f5;
-  color: #f8fbfe;
-}
-
-.btn-3 {
-  background-color: #ac58f5;
-  color: #fff;
-  border-radius: 20px;
-  padding: 7px;
-  width: 160px;
-}
-
-.btn-3:hover {
-  background-color: #fff;
-  border: 1px solid #ac58f5;
-  color: #ac58f5;
-  border-radius: 20px;
-  padding: 7px;
-  width: 160px;
-}
-
-.header-titulo {
-  font-family: "Merriweather", serif;
-  font-size: 70px;
-}
-
-.header-subtitulo {
-  font-family: "Merriweather", serif;
-  font-size: 36px;
-}
+/* -- CARDS -- */
 
 .card-avaliacao {
   border-radius: 0 0 1.5em 1.5em;
@@ -206,11 +221,19 @@ a {
   border-radius: 0 0 1.5em 1.5em;
 }
 
-
-.slide-4 {
-  background-color: #ededec;
-  font-family: "Merriweather";
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.card-title {
+  font-family: "Poppins";
+  padding: auto;
+}
+
+/* -- SLIDE 3: ESTRATÉGIAS DE VIAGEM -- */
 
 .imagens-slide-3 {
   background-image: url(./images/background/rectangle-up.png);
@@ -223,6 +246,17 @@ a {
   top: 1250px;
   bottom: -3em;
   z-index: -1;
+}
+
+/* -- SLIDE 4: TIPOS DE VIAGEM -- */
+
+.slide-4 {
+  background-color: #ededec;
+  font-family: "Merriweather";
+}
+
+.tipos-imagens {
+  border-radius: 20px;
 }
 
 .imagens-slide-4 {
@@ -238,19 +272,38 @@ a {
   z-index: -1;
 }
 
+/* -- SLIDE 5: AVALIAÇÕES DOS USUÁRIOS -- */
+
 .slide-5 {
   text-align: center;
   padding: 30px;
 }
 
-.card-title {
-  font-family: "Poppins";
-  padding: auto;
-}
-
 .testimonials {
   padding: 40px 0;
   text-align: center;
+}
+
+.testimonial {
+  background-color: rgb(249, 248, 248);
+  height: 100%;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.nome {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.localizacao {
+  margin: 10px 0;
 }
 
 .inner {
@@ -280,27 +333,11 @@ a {
   padding: 15px;
 }
 
-.testimonial {
-  background-color: rgb(249, 248, 248);
-  height: 100%;
-  padding: 30px;
+.input-group {
+  width: 50%;
 }
 
-.testimonial img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.nome {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
-
-.localizacao {
-  margin: 10px 0;
-}
+/* -- NEWSLETTER E FOOTER -- */
 
 .newsletter {
   background-color: #0f172a;
@@ -308,10 +345,6 @@ a {
 
 .newsletter h1 {
   color: #f8fbfe;
-}
-
-.input-group {
-  width: 50%;
 }
 
 .newsletter-input {
@@ -340,21 +373,6 @@ a {
 .icones-footer {
   color: var(--primary-color);
   font-size: 2.1rem;
-}
-
-.noturno-container { 
-  background-color: #0F172A;
-  color: #fff;
-}
-
-.tipos-imagens {
-  border-radius: 20px;
-}
-
-.line {
-  height: 1.5px;
-  background-color: #ac58f5;
-  width: 250px;
 }
 
 @media screen and (max-width: 430px) {
