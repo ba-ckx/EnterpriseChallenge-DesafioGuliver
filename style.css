@@ -511,7 +511,7 @@ a {
 }
 
 .imagem-slide-8 {
-  background-image: url(./image/Rectangle_6.png);
+  background-image: url(./images/dicas/Rectangle_6.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -523,7 +523,7 @@ a {
 }
 
 .imagem-slide-8b {
-  background-image: url(./image/Schedule.png);
+  background-image: url(./images/dicas/Schedule.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 60%;
