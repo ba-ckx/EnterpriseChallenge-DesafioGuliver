@@ -37,37 +37,37 @@
             <menu class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link dyn-font" aria-current="page" href="/index.html">Home</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item dyn-font">
                         <a class="nav-link" href="#">Como Chegar</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle dyn-font" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Sobre
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#gastronomia">Gastronomia</a></li>
-                            <li><a class="dropdown-item" href="#">Natureza</a></li>
-                            <li><a class="dropdown-item" href="#entretenimento">Entretenimento</a></li>
-                            <li><a class="dropdown-item" href="#vida-noturna">Vida Noturna</a></li>
-                            <li><a class="dropdown-item" href="#">Cultura e História</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#gastronomia">Gastronomia</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#">Natureza</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#entretenimento">Entretenimento</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#vida-noturna">Vida Noturna</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#">Cultura e História</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Dicas</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#">Dicas</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hospedagem</a>
+                        <a class="nav-link dyn-font" href="#">Hospedagem</a>
                     </li>
 
                     <li>
-                        <a class="nav-link" href="#">Transporte</a>
+                        <a class="nav-link dyn-font" href="#">Transporte</a>
                     </li>
                 </ul>
                 <div class="d-flex align-items-center acessibilidade">
@@ -77,17 +77,14 @@
                                 onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><span>
                                     contrast</span></a>
                     </div>
-                    <a class="nav-link" href="#" onclick="increaseFont()"><span
-                            class="material-symbols-outlined text-black">
-                            text_increase
-                        </span></a>
-                    <a class="nav-link" href="#"><span class="material-symbols-outlined text-black">
-                            text_decrease
-                        </span></a>
-                </div>
+                    <div class="d-flex align-items-center acessibilidade">
+                        <div class="font me-4">
+                            <a href="#" class="dyn-font text-black" onclick="increaseFont()">A+</a> | <a href="#" class="dyn-font text-black"
+                                onclick="decreaseFont()">A-</a>
+                    </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-1 btn-light me-md-2" type="button">Entrar</button>
-                    <button class="btn btn-2" type="button">Cadastrar-se</button>
+                    <button class="btn btn-1 btn-light me-md-2 dyn-font" type="button">Entrar</button>
+                    <button class="btn btn-2 dyn-font" type="button">Cadastrar-se</button>
                 </div>
             </menu>
         </div>
@@ -101,24 +98,24 @@
             <div class="carousel-item active">
                 <img src="images/slides/jericoacoara1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block carousel-header-texto">
-                    <h1>Viaje para <br>
-                        <span class="text-purple">Jericoacoara</span>
+                    <h1 class="dyn-font">Viaje para <br>
+                        <span class="text-purple dyn-font">Jericoacoara</span>
                     </h1>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/slides/jericoacoara2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block carousel-header-texto">
-                    <h1>Viaje para <br>
-                        <span class="text-purple">Jericoacoara</span>
+                    <h1 class="dyn-font">Viaje para <br>
+                        <span class="text-purple dyn-font">Jericoacoara</span>
                     </h1>
                 </div>
             </div>
             <div class="carousel-item"></div>
             <img src="images/slides/jericoacoara3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block carousel-header-texto">
-                <h1>Viaje para <br>
-                    <span class="text-purple">Jericoacoara</span>
+                <h1 class="dyn-font">Viaje para <br>
+                    <span class="text-purple dyn-font">Jericoacoara</span>
                 </h1>
             </div>
         </div>
@@ -137,9 +134,9 @@
 
     <!-- Como Chegar -->
     <section class="container p-5">
-        <h6 class="text-purple text-center my-3">TIPOS DE VIAGEM</h6>
+        <h6 class="text-purple text-center my-3 dyn-font">TIPOS DE VIAGEM</h6>
         <div class="row">
-            <h2 class="header-subtitulo text-center">Como chegar?</h2>
+            <h2 class="header-subtitulo text-center dyn-font">Como chegar?</h2>
         </div>
         <div class="card-body">
             <iframe
@@ -152,9 +149,8 @@
 
     <!-- Hospedagem -->
     <div class="container-fluid p-5 slide-2 container-hospedagem">
-        <h6 class="text-uppercase text-purple text-center">HOSPEDAGEM</h6>
-        <h2 class="header-subtitulo text-center pt-3 pb-5
-                    ">Onde se Hospedar</h2>
+        <h6 class="text-uppercase text-purple text-center dyn-font">HOSPEDAGEM</h6>
+        <h2 class="header-subtitulo text-center pt-3 pb-5 dyn-font">Onde se Hospedar</h2>
 
         <div id="carouselHospedagem" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel-inner-hospedagem">
@@ -164,35 +160,35 @@
                             <img src="./images/hospedagem/hospedagem-1.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Casa Valentini Pousada</h5>
-                                <p class="card-text">Dispondo de bar, jardim e vista do jardim, a Casa Valentini
+                                <h5 class="card-title dyn-font">Casa Valentini Pousada</h5>
+                                <p class="card-text dyn-font">Dispondo de bar, jardim e vista do jardim, a Casa Valentini
                                     Pousada está localizada em Jericoacoara, a 400 metros da Praia de Jericoacoara.
                                 </p>
                                 <a href="https://www.booking.com/hotel/br/casa-valentini-pousada.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-649321&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=b79a164e6e1101c6&srepoch=1665457821&from_beach_sr=1&beach_sr_walking_distance=375&from=searchresults&activeTab=main"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <div class="card">
                             <img src="./images/hospedagem/hospedagem-2.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Pousada Ponta Da Pedra</h5>
-                                <p class="card-text">A Pousada Ponta Da Pedra está situada à beira-mar na Praia
+                                <h5 class="card-title dyn-font">Pousada Ponta Da Pedra</h5>
+                                <p class="card-text dyn-font">A Pousada Ponta Da Pedra está situada à beira-mar na Praia
                                     Jericoacoara, a apenas 5 minutos a pé das dunas de areia, e oferece acomodações na praia.</p>
                                 <a href="https://www.booking.com/hotel/br/vila-ruda.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-676554&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=a1e1144d95e00088&srepoch=1665456795&from_beach_sr=1&beach_sr_walking_distance=583&from_sustainable_property_sr=1&from=searchresults#hotelTmpl"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <div class="card">
                             <img src="./images/hospedagem/hospedagem-3.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Jehol Jericoacoara</h5>
-                                <p class="card-text">Situado a 500 metros da Praia da Malhada, o
+                                <h5 class="card-title dyn-font">Jehol Jericoacoara</h5>
+                                <p class="card-text dyn-font">Situado a 500 metros da Praia da Malhada, o
                                     Jehol Jericoacoara oferece check-in e check-out expressos, quartos, piscina ao
                                     ar livre e Wi-Fi gratuito.</p>
                                 <a href="https://www.booking.com/hotel/br/villa-jehol.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-649321&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&srpvid=b79a164e6e1101c6&srepoch=1665457821&from_beach_sr=1&beach_sr_walking_distance=343&from_sustainable_property_sr=1&from=searchresults&activeTab=main"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <!-- <div class="card">
@@ -217,37 +213,37 @@
                             <img src="./images/hospedagem/hospedagem-4.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Pousada Principal
+                                <h5 class="card-title dyn-font">Pousada Principal
                                 </h5>
-                                <p class="card-text">A Pousada Principal dispõe de Wi-Fi
+                                <p class="card-text dyn-font">A Pousada Principal dispõe de Wi-Fi
                                     gratuito em toda a propriedade e está localizada no centro da vila
                                     de Jericoacoara, a 150 metros da Praia de Jericoacoara.</p>
                                 <a href="https://www.booking.com/hotel/br/pousada-principal.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-649321&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=b79a164e6e1101c6&srepoch=1665457821&from_beach_sr=1&beach_sr_walking_distance=184&from=searchresults&activeTab=main"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <div class="card">
                             <img src="./images/hospedagem/hospedagem-5.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Pousada Villa Paihia</h5>
-                                <p class="card-text">A Pousada Villa Paihia está situada a 500
+                                <h5 class="card-title dyn-font">Pousada Villa Paihia</h5>
+                                <p class="card-text dyn-font">A Pousada Villa Paihia está situada a 500
                                     metros da Duna do Pôr do Sol, a 5,9 km da Pedra Furada e a
                                     600 metros da Capela de Nossa Senhora de Fátima.</p>
                                 <a href="https://www.booking.com/hotel/br/villa-paihia.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-649321&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=b79a164e6e1101c6&srepoch=1665457821&from_beach_sr=1&beach_sr_walking_distance=365&from=searchresults&activeTab=main"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <div class="card">
                             <img src="./images/hospedagem/hospedagem-6.jpg"
                                 class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">UNKUÉ POUSADA FLATS</h5>
-                                <p class="card-text">A UNKUÉ POUSADA FLATS oferece
+                                <h5 class="card-title dyn-font">UNKUÉ POUSADA FLATS</h5>
+                                <p class="card-text dyn-font">A UNKUÉ POUSADA FLATS oferece
                                     acomodações com varanda térrea ou sacada, Wi-Fi gratuito e TV de tela plana, bem
                                     como piscina ao ar livre e jardim.</p>
                                 <a href="https://www.booking.com/hotel/br/unkue-pousada-flats-jijoca-de-jericoacoara1.pt-br.html?sid=804c2859bf62e82a92a5ffc70f42275e&aid=2230190&ucfs=1&arphpl=1&dest_id=-649321&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&srpvid=b79a164e6e1101c6&srepoch=1665457821&from_beach_sr=1&beach_sr_walking_distance=577&from_sustainable_property_sr=1&from=searchresults&activeTab=main"
-                                    target="_blank" class="btn-3 btn">Reserve</a>
+                                    target="_blank" class="btn-3 btn dyn-font">Reserve</a>
                             </div>
                         </div>
                         <!-- <div class="card">
@@ -288,11 +284,11 @@
         <div class="imagem-slide-7"></div>
     
         <div class="container">
-            <h6 class="text-purple text-center my-3">CULTURA e HISTÓRIA</h6>
+            <h6 class="text-purple text-center my-3 dyn-font">CULTURA e HISTÓRIA</h6>
             <div class="row">
                 <div class="col-md-8">
-                    <h1>Conheça mais sobre os<br>lugares que deseja visitar!</h1>
-                    <p class="mt-5">Resgatar as raízes culturais de uma região poderá despertar no
+                    <h1 class="dyn-font">Conheça mais sobre os<br>lugares que deseja visitar!</h1>
+                    <p class="mt-5 dyn-font">Resgatar as raízes culturais de uma região poderá despertar no
                         indivíduo<br>a
                         motivação
                         e o interesse sobre a sua própria cultura, tornando-o um<br>cidadão mais sensível e
@@ -302,8 +298,8 @@
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
                     <div class="row d-flex flex-column ">
-                        <a class="col-12 btn-3 btn m-2" href="/Cultura.html">CULTURA</a>
-                        <a class="col-12 btn-3 btn m-2" href="/Historia.html">HISTÓRIA</a>
+                        <a class="col-12 btn-3 btn m-2 dyn-font" href="/Cultura.html">CULTURA</a>
+                        <a class="col-12 btn-3 btn m-2 dyn-font" href="/Historia.html">HISTÓRIA</a>
                     </div>
                 </div>
             </div>
@@ -318,9 +314,8 @@
 
     <!-- Gastronomia -->
     <div class="container-fluid p-5 slide-2">
-        <h6 class="text-uppercase text-purple text-center">GASTRONOMIA</h6>
-        <h2 class="header-subtitulo text-center pt-3 pb-5
-                ">Descubra o que há de melhor no seu destino!</h2>
+        <h6 class="text-uppercase text-purple text-center dyn-font">GASTRONOMIA</h6>
+        <h2 class="header-subtitulo text-center pt-3 pb-5 dyn-font">Descubra o que há de melhor no seu destino!</h2>
         <section class="container">
             <div class="row justify-content-center">
                 <div class="col h-100 card-gastronomia">
@@ -333,7 +328,7 @@
                     <div
                         class="card border-0 card-restaurante shadow mt-3 d-flex justify-content-center align-items-center">
                         <div class="card-body">
-                            <p class="card-text fw-bold">567 Burger</p>
+                            <p class="card-text fw-bold dyn-font">567 Burger</p>
                             <div class="row d-flex justify-content-center">
                                 <div
                                     class="col-8 text-nowrap d-flex justify-content-center align-items-center flex-column">
@@ -341,7 +336,7 @@
                                     <img src="./images/gastronomia/5estrelas.svg" class="mt-3">
                                 </div>
                                 <div class="card-title justify-content-center">
-                                    <a href="https://www.instagram.com/567burger/" class="btn-3 btn mt-4">Mais
+                                    <a href="https://www.instagram.com/567burger/" class="btn-3 btn mt-4 dyn-font">Mais
                                         infos</a>
                                 </div>
                             </div>
@@ -358,7 +353,7 @@
                     <div
                         class="card border-0 card-restaurante shadow mt-3 d-flex justify-content-center align-items-center">
                         <div class="card-body">
-                            <p class="card-text fw-bold">Bistrô Caiçara</p>
+                            <p class="card-text fw-bold dyn-font">Bistrô Caiçara</p>
                             <div class="row d-flex justify-content-center">
                                 <div
                                     class="col-8 text-nowrap d-flex justify-content-center align-items-center flex-column">
@@ -366,7 +361,7 @@
                                     <img src="./images/gastronomia/5estrelas.svg" class="mt-3">
                                 </div>
                                 <div class="card-title justify-content-center">
-                                    <a href="https://www.instagram.com/bistrocaicara/" class="btn-3 btn mt-4">Mais
+                                    <a href="https://www.instagram.com/bistrocaicara/" class="btn-3 btn mt-4 dyn-font">Mais
                                         infos</a>
                                 </div>
                             </div>
@@ -384,7 +379,7 @@
                     <div
                         class="card border-0 card-restaurante shadow mt-3 d-flex justify-content-center align-items-center">
                         <div class="card-body">
-                            <p class="card-text fw-bold">Romã</p>
+                            <p class="card-text fw-bold dyn-font">Romã</p>
                             <div class="row d-flex justify-content-center">
                                 <div
                                     class="col-8 text-nowrap d-flex justify-content-center align-items-center flex-column">
@@ -393,7 +388,7 @@
                                 </div>
                                 <div class="card-title justify-content-center">
                                     <a href="https://www.instagram.com/romajeri/"
-                                        class="btn-3 btn mt-4">Mais
+                                        class="btn-3 btn mt-4 dyn-font">Mais
                                         infos</a>
                                 </div>
                             </div>
@@ -409,7 +404,7 @@
                     </div>
                     <div class="card border-0 card-restaurante shadow mt-3">
                         <div class="card-body">
-                            <p class="card-text fw-bold">Freddyssimo</p>
+                            <p class="card-text fw-bold dyn-font">Freddyssimo</p>
                             <div class="row d-flex justify-content-center">
                                 <div
                                     class="col-8 text-nowrap d-flex justify-content-center align-items-center flex-column">
@@ -417,7 +412,7 @@
                                     <img src="./images/gastronomia/4estrelas.svg" class="mt-3">
                                 </div>
                                 <div class="card-title justify-content-center">
-                                    <a href="https://www.instagram.com/freddyssimojeri/" class="btn-3 btn mt-4">Mais
+                                    <a href="https://www.instagram.com/freddyssimojeri/" class="btn-3 btn mt-4 dyn-font">Mais
                                         infos</a>
                                 </div>
                             </div>
@@ -434,8 +429,8 @@
 
         <div class="container-fluid slide-2 justify-content-center align-items-center d-flex flex-column">
             <div class="line mb-4"></div>
-            <h6 class="text-uppercase text-purple text-center">ENTRETENIMENTO</h6>
-            <h2 class="header-subtitulo text-center pt-3 mb-3">As melhores opções de entretenimento<br>
+            <h6 class="text-uppercase text-purple text-center dyn-font">ENTRETENIMENTO</h6>
+            <h2 class="header-subtitulo text-center pt-3 mb-3 dyn-font">As melhores opções de entretenimento<br>
                 para você aproveitar</h2>
 
             <div class="container">
@@ -443,41 +438,40 @@
                 <div class="row entretenimento">
                     <div
                         class="col-md-4 col-sm-12 text-justify p-4 d-flex justify-content-center align-items-center flex-column">
-                        <h5 class="text-center text-purple fw-bold mb-3">Alchymist Beach Club</h5>
+                        <h5 class="text-center text-purple fw-bold mb-3 dyn-font">Alchymist Beach Club</h5>
                         <img src="./images/entretenimento/entretenimento-1.png"
                             alt="Imagem da passarela do local que vai em direção ao mar"
                             class="entretenimento-imagens img-fluid mb-3 rounded-3 ">
-                        <p>O Alchymist Beach Club possui um clima de praia europeu, com direito a tendas montadas na
+                        <p class="dyn-font">O Alchymist Beach Club possui um clima de praia europeu, com direito a tendas montadas na
                             areia, espreguiçadeiras e redes na água.</p>
-                        <a href="https://www.instagram.com/alchymistbeachclub/" class="btn btn-3"> Saiba mais </a>
+                        <a href="https://www.instagram.com/alchymistbeachclub/" class="btn btn-3 dyn-font"> Saiba mais </a>
                     </div>
 
                     <div
                         class="col-md-4 col-sm-12 text-justify p-4 d-flex justify-content-center align-items-center flex-column">
-                        <h5 class="text-center text-purple fw-bold mb-3">Passeio de Buggys</h5>
+                        <h5 class="text-center text-purple fw-bold mb-3 dyn-font">Passeio de Buggys</h5>
                         <img src="./images/entretenimento/entretenimento-2.png"
                             alt="Imagem de duas pessoas em um buggy na areia"
                             class="entretenimento-imagens img-fluid mb-3 rounded-3">
-                        <p>Este é o passeio favorito dos visitantes que chegam em Jeri, pode ser combinado em
+                        <p class="dyn-font">Este é o passeio favorito dos visitantes que chegam em Jeri, pode ser combinado em
                             quiosques
                             de agências de
                             passeios.</p>
-                        <a href="http://jeripasseios.com/?utm_source=gmb&utm_medium=referral" class="btn btn-3">
-                            Saiba
-                            mais </a>
+                        <a href="http://jeripasseios.com/?utm_source=gmb&utm_medium=referral" class="btn btn-3 dyn-font">
+                            Saiba mais </a>
                     </div>
 
                     <div
                         class="col-md-4 col-sm-12 text-justify p-4 d-flex justify-content-center align-items-center flex-column">
-                        <h5 class="text-center text-purple fw-bold mb-3">Lagoa do Paraíso</h5>
+                        <h5 class="text-center text-purple fw-bold mb-3 dyn-font">Lagoa do Paraíso</h5>
                         <img src="./images/entretenimento/entretenimento-3.png" alt="Imagem das redes do local"
                             class="entretenimento-imagens img-fluid mb-3 rounded-3">
-                        <p>Na Lagoa do Paraíso é possível deitar em redes armadas dentro d`água e aproveitar a
+                        <p class="dyn-font">Na Lagoa do Paraíso é possível deitar em redes armadas dentro d`água e aproveitar a
                             estrutura
                             de ótimos
                             estabelecimentos.</p>
                         <a href="https://www.jericoacoara.com/br/atividades/atracoes/lagoa-do-paraiso"
-                            class="btn btn-3"> Saiba
+                            class="btn btn-3 dyn-font"> Saiba
                             mais
                         </a>
                     </div>
@@ -492,17 +486,17 @@
     <section class="dark-container mt-4">
 
         <div class="container-fluid p-5 container">
-            <h6 class="text-uppercase text-purple text-center">Vida Noturna</h6>
-            <h2 class="header-subtitulo text-center my-3"> Curte um passeio noturno?</h2>
-            <h2 class="text-center header-subtitulo mb-5">Separamos algumas opções para você se divertir!</h2>
+            <h6 class="text-uppercase text-purple text-center dyn-font">Vida Noturna</h6>
+            <h2 class="header-subtitulo text-center my-3 dyn-font"> Curte um passeio noturno?</h2>
+            <h2 class="text-center header-subtitulo mb-5 dyn-font">Separamos algumas opções para você se divertir!</h2>
 
             <div class="row d-flex justify-content-center col-12 mt-4 entretenimento">
                 <div class="col-lg-9 col-md-12 col-sm-12 d-flex p-3">
                     <img src="./images/entretenimento/noturno-1.png"
                         alt="Imagem de uma pessoa ouvindo música e dançando" class="noturno-imagens img-fluid mb-3">
                     <div class="px-3">
-                        <h5>Planeta Jeri</h5>
-                        <p>Conhecido como o "bar dançante" de Jericoacoara, o Planeta Jeri fica localizado perto da
+                        <h5 class="dyn-font">Planeta Jeri</h5>
+                        <p class="dyn-font">Conhecido como o "bar dançante" de Jericoacoara, o Planeta Jeri fica localizado perto da
                             praia.
                             Todas as noites há uma
                             programação especial, com muita música boa e bons drinks, atraindo pessoas de todas as
@@ -514,8 +508,8 @@
                     <img src="./images/entretenimento/noturno-2.png" alt="Imagem de drinks"
                         class="noturno-imagens img-fluid mb-3">
                     <div class="px-3">
-                        <h5>Mama África</h5>
-                        <p>O Mama África oferece um excelente espaço ao ar livre com boa oferta de drinks e
+                        <h5 class="dyn-font">Mama África</h5>
+                        <p class="dyn-font">O Mama África oferece um excelente espaço ao ar livre com boa oferta de drinks e
                             petiscos. O
                             lugar costuma ficar aberto
                             até tarde, sendo uma ótima opção para quem deseja finalizar a noite dançando em um
@@ -531,22 +525,22 @@
     <!-- Natureza -->
     <section class="container mt-5">
         <div class="container-fluid slide-2 justify-content-center align-items-center d-flex flex-column">
-            <h6 class="text-uppercase text-purple text-center">NATUREZA</h6>
-            <h2 class="header-subtitulo text-center pt-3 mb-3">Vamos curtir ao ar livre?</h2>
+            <h6 class="text-uppercase text-purple text-center dyn-font">NATUREZA</h6>
+            <h2 class="header-subtitulo text-center pt-3 mb-3 dyn-font">Vamos curtir ao ar livre?</h2>
             <div class="container">
                 <div class="row col-12">
     
                     <div class="col-lg-4 col-sm-12 card-body">
                         <div class="card-natureza p-3 shadow">
                             <img src="images/natureza/J_dunadopordosol.jpeg" alt="">
-                            <h5 class="text-center fw-bold my-3">Duna do Pôr do Sol</h5>
+                            <h5 class="text-center fw-bold my-3 dyn-font">Duna do Pôr do Sol</h5>
                             <div class="d-flex">
                                 <div class="d-flex flex-column text-center">
                                     <img src="images/natureza/3.png" alt="" class="foto-usuario mb-2">
-                                    <p>Renata</p>
+                                    <p class="dyn-font">Renata</p>
                                 </div>
                                 <div class="ps-4">
-                                    <p>"Vale muito a pena ir ver o por do sol na Duna. É uma distância curta, e logo após o por do sol, há formação de barracas de drinks e música."</p>
+                                    <p class="dyn-font">"Vale muito a pena ir ver o por do sol na Duna. É uma distância curta, e logo após o por do sol, há formação de barracas de drinks e música."</p>
                                 </div>
                             </div>
                         </div>
@@ -555,14 +549,14 @@
                     <div class="col-lg-4 col-sm-12 card-body">
                         <div class="card-natureza p-3 shadow">
                             <img src="images/natureza/J_pedradapreguica.jpeg" alt="">
-                            <h5 class="text-center fw-bold my-3">Árvore da Preguiça</h5>
+                            <h5 class="text-center fw-bold my-3 dyn-font">Árvore da Preguiça</h5>
                             <div class="d-flex">
                                 <div class="d-flex flex-column text-center">
                                     <img src="images/natureza/2.png" alt="" class="foto-usuario mb-2">
-                                    <p>Luana</p>
+                                    <p class="dyn-font">Luana</p>
                                 </div>
                                 <div class="ps-4">
-                                    <p>"É uma parada obrigatória para conhecer e tirar uma foto. A espera que é longa, de 20 a 40 minutos. Tem que ter paciência."</p>
+                                    <p class="dyn-font">"É uma parada obrigatória para conhecer e tirar uma foto. A espera que é longa, de 20 a 40 minutos. Tem que ter paciência."</p>
                                 </div>
                             </div>
                         </div>
@@ -570,14 +564,14 @@
                     <div class="col-lg-4 col-sm-12 card-body">
                         <div class="card-natureza p-3 shadow">
                             <img src="images/natureza/J_pedrafurada.jpeg" alt="">
-                            <h5 class="text-center fw-bold my-3">Pedra Furada</h5>
+                            <h5 class="text-center fw-bold my-3 dyn-font">Pedra Furada</h5>
                             <div class="d-flex">
                                 <div class="d-flex flex-column text-center">
                                     <img src="images/natureza/1.png" alt="" class="foto-usuario mb-2">
-                                    <p>Breno</p>
+                                    <p class="dyn-font">Breno</p>
                                 </div>
                                 <div class="ps-4">
-                                    <p>"Fomos a pé, pela praia. Indo cedinho com maré baixa dá para andar pela praia, por mais ou menos 30m. Mas se a maré estiver alta, tem que fazer por cima do morro. Vale a pena a caminhada."</p>
+                                    <p class="dyn-font">"Fomos a pé, pela praia. Indo cedinho com maré baixa dá para andar pela praia, por mais ou menos 30m. Mas se a maré estiver alta, tem que fazer por cima do morro. Vale a pena a caminhada."</p>
                                 </div>
                             </div>
                         </div>
@@ -598,15 +592,15 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <h6 class="text-purple text-center">DICAS</h6>
-                    <h1 class="h1 my-4">Se liga nas dicas e aproveite!</h1>
-                    <p>- Ao alugar o carro, fique atento aos locais de devolução;</p>
-                    <p>- Muitos hotéis proporcionam reeições inclusas porém, caso não o pacote escolhido por
+                    <h6 class="text-purple text-center dyn-font">DICAS</h6>
+                    <h1 class="h1 my-4 dyn-font">Se liga nas dicas e aproveite!</h1>
+                    <p class="dyn-font">- Ao alugar o carro, fique atento aos locais de devolução;</p>
+                    <p class="dyn-font">- Muitos hotéis proporcionam reeições inclusas porém, caso não o pacote escolhido por
                         você
                         procure
                         restaurantes com fácil mobilidade;</p>
-                    <p>- Monte um roteiro com programção desejadas e valores, caso haja;</p>
-                    <p>- Avalie as redes de atendimento médico nos arredores do destino.</p>
+                    <p class="dyn-font">- Monte um roteiro com programção desejadas e valores, caso haja;</p>
+                    <p class="dyn-font">- Avalie as redes de atendimento médico nos arredores do destino.</p>
                 </div>
             </div>
         </div>
@@ -621,8 +615,8 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-12 col-sm-12 mb-3 mb-md-0">
-                        <h5 class="text-uppercase"><i class="fa-solid fa-paper-plane"></i> GLVR</h5>
-                        <p class="pt-3 footer-links">
+                        <h5 class="text-uppercase"><i class="fa-solid fa-paper-plane dyn-font"></i> GLVR</h5>
+                        <p class="pt-3 footer-links dyn-font">
                             Viajar nunca foi tão fácil! Nos acompanhe nas redes sociais:
                         </p>
                         <div>
@@ -646,65 +640,65 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-sm-6 mb-3 mb-md-0">
-                        <h5 class="footer-titulo">Companhia</h5>
+                        <h5 class="footer-titulo dyn-font">Companhia</h5>
 
                         <ul class="list-unstyled mb-0 pt-3">
                             <li>
-                                <a href="#!" class="footer-links">Sobre nós</a>
+                                <a href="#!" class="footer-links dyn-font">Sobre nós</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Destinos</a>
+                                <a href="#!" class="footer-links dyn-font">Destinos</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Passagens</a>
+                                <a href="#!" class="footer-links dyn-font">Passagens</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Fale conosco</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 col-sm-6 mb-3 mb-md-0">
-                        <h5 class="footer-titulo">Ajuda</h5>
-
-                        <ul class="list-unstyled pt-3">
-                            <li>
-                                <a href="#!" class="footer-links">SAC</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer-links">Cancele a viagem</a>
+                                <a href="#!" class="footer-links dyn-font">Fale conosco</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-sm-6 mb-3 mb-md-0">
-                        <h5 class="footer-titulo">Mais</h5>
+                        <h5 class="footer-titulo dyn-font">Ajuda</h5>
 
                         <ul class="list-unstyled pt-3">
                             <li>
-                                <a href="#!" class="footer-links">Voos domésticos</a>
+                                <a href="#!" class="footer-links dyn-font">SAC</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Parcerias</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer-links">Trabalhos</a>
+                                <a href="#!" class="footer-links dyn-font">Cancele a viagem</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-sm-6 mb-3 mb-md-0">
-                        <h5 class="footer-titulo">Termos</h5>
+                        <h5 class="footer-titulo dyn-font">Mais</h5>
 
                         <ul class="list-unstyled pt-3">
                             <li>
-                                <a href="#!" class="footer-links">Política privada</a>
+                                <a href="#!" class="footer-links dyn-font">Voos domésticos</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Termos de uso</a>
+                                <a href="#!" class="footer-links dyn-font">Parcerias</a>
                             </li>
                             <li>
-                                <a href="#!" class="footer-links">Acessibilidade</a>
+                                <a href="#!" class="footer-links dyn-font">Trabalhos</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 mb-3 mb-md-0">
+                        <h5 class="footer-titulo dyn-font">Termos</h5>
+
+                        <ul class="list-unstyled pt-3">
+                            <li>
+                                <a href="#!" class="footer-links dyn-font">Política privada</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer-links dyn-font">Termos de uso</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer-links dyn-font">Acessibilidade</a>
                             </li>
                         </ul>
                     </div>
@@ -712,7 +706,7 @@
                 </div>
             </div>
             <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> Projeto Gulliver | Todos os
+            <div class="text-center p-3 dyn-font" style="background-color: rgba(0, 0, 0, 0.2);"> Projeto Gulliver | Todos os
                 direitos reservados ©
             </div>
             <!-- Copyright -->
