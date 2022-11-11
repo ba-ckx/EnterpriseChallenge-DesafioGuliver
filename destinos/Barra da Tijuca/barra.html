@@ -27,9 +27,9 @@
 
 <body>
     <!-- navbar principal  -->
-    <nav class="navbar sticky-top navbar-expand-lg ps-5 pe-5 navbar-light navbar-principal">
+    <nav class="navbar sticky-top navbar-expand-lg ps-5 pe-5 navbar-light bg-light navbar-principal">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-paper-plane dyn-font"></i> GLVR</a>
+            <a class="navbar-brand" href="/index.html"><i class="fa-solid fa-paper-plane dyn-font"></i> GLVR</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,11 +37,7 @@
             <menu class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link dyn-font" aria-current="page" href="/index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link dyn-font" href="#">Como Chegar</a>
+                        <a class="nav-link dyn-font" href="#como-chegar">Como Chegar</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -58,16 +54,16 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item dyn-font" href="#">Dicas</a></li>
+                            <li><a class="dropdown-item dyn-font" href="#dicas">Dicas</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link dyn-font" href="#">Hospedagem</a>
+                        <a class="nav-link dyn-font" href="#hospedagem">Hospedagem</a>
                     </li>
 
                     <li>
-                        <a class="nav-link dyn-font" href="#">Transporte</a>
+                        <a class="nav-link dyn-font" href="#transporte">Transporte</a>
                     </li>
                 </ul>
                 <div class="d-flex align-items-center acessibilidade">
@@ -133,7 +129,7 @@
     <!-- Fim do Header -->
 
     <!-- Como Chegar -->
-    <section class="container p-5">
+    <section class="container p-5" id="como-chegar">
         <h6 class="text-purple text-center my-3 dyn-font">TIPOS DE VIAGEM</h6>
         <div class="row">
             <h2 class="header-subtitulo text-center dyn-font">Como chegar?</h2>
@@ -148,7 +144,7 @@
     <!-- Fim Como Chegar -->
 
     <!-- Hospedagem -->
-    <section class="container-fluid p-5 slide-2 container-hospedagem">
+    <section class="container-fluid p-5 slide-2 container-hospedagem" id="hospedagem">
         <h6 class="text-uppercase text-purple text-center dyn-font">HOSPEDAGEM</h6>
         <h2 class="header-subtitulo text-center pt-3 pb-5 dyn-font">Diversas opções de hospedagens</h2>
 
@@ -274,12 +270,30 @@
     </section>
     <!-- Fim Hospedagem -->
 
-    <!-- Aluguel Carros -->
+    <!-- Alugue seu carro -->
+    <section class="dark-container mt-4" id="transporte">
 
-    <!-- Fim Aluguel Carros -->
+        <div class="container-fluid p-5 container alugue-container">
+            <h2 class="header-subtitulo text-center my-3 dyn-font">Alugue seu carro</h2>
+            <div class="col-12 d-flex justify-content-between my-5">
+                <input type="text" placeholder="Digite o local de retirada" class="col-5 p-2 ps-3">
+                <input type="date" placeholder="Data" class="col-2 p-2 ps-3">
+                <input type="text" placeholder="Hora" class="col-2 p-2 ps-3">
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                (Carrossel dos carros)
+                <div class="alugue-container-text mt-5 dyn-font">
+                    <p class="text-purple dyn-font">Grupo LE - SUV Especial</p>
+                    <p class="dyn-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea et iure.</p>
+                </div>
+                <a href="#" class="btn-3 btn mt-4 px-5 py-2 dyn-font">Todos os Grupos</a>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Alugue seu carro -->
 
     <!-- Cultura e História -->
-    <section class="slide-7 my-3">
+    <section class="slide-7 my-3" id="cultura-e-historia">
         <div class="imagem-slide-7"></div>
 
         <div class="container">
@@ -308,7 +322,7 @@
     <!-- Fim Cultura e História -->
 
     <!-- Gastronomia -->
-    <div class="container-fluid p-5 slide-2">
+    <div class="container-fluid p-5 slide-2" id="gastronomia">
         <h6 class="text-uppercase text-purple text-center dyn-font">GASTRONOMIA</h6>
         <h2 class="header-subtitulo text-center pt-3 pb-5 dyn-font">Descubra o que há de melhor no seu destino!</h2>
         <section class="container">
@@ -419,7 +433,7 @@
     <!-- Fim Gastronomia -->
 
     <!-- Entretenimento -->
-    <section class="container">
+    <section class="container" id="entretenimento">
 
         <div class="container-fluid slide-2 justify-content-center align-items-center d-flex flex-column">
             <div class="line mb-4"></div>
@@ -478,7 +492,7 @@
     <!-- Fim Entretenimento -->
 
     <!-- Vida Noturna -->
-    <section class="dark-container mt-4">
+    <section class="dark-container mt-4" id="vida-noturna">
 
         <div class="container-fluid p-5 container">
             <h6 class="text-uppercase text-purple text-center dyn-font">Vida Noturna</h6>
@@ -519,7 +533,7 @@
     <!-- Fim Vida Noturna -->
 
     <!-- Natureza -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="natureza">
         <div class="container-fluid slide-2 justify-content-center align-items-center d-flex flex-column">
             <h6 class="text-uppercase text-purple text-center dyn-font">NATUREZA</h6>
             <h2 class="header-subtitulo text-center pt-3 mb-3 dyn-font">Vamos curtir ao ar livre?</h2>
@@ -579,7 +593,7 @@
     <!-- Fim Natureza -->
 
     <!-- Dicas Uteis -->
-    <section class="container pt-5  slide-8">
+    <section class="container pt-5  slide-8" id="dicas">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 m-0 p-0 overflow-visible">
@@ -602,29 +616,6 @@
         </div>
     </section>
     <!-- Fim Dicas Uteis -->
-
-
-    <!-- Alugue seu carro -->
-    <section class="dark-container mt-4">
-
-        <div class="container-fluid p-5 container alugue-container">
-            <h2 class="header-subtitulo text-center my-3 dyn-font">Alugue seu carro</h2>
-            <div class="col-12 d-flex justify-content-between my-5">
-                <input type="text" placeholder="Digite o local de retirada" class="col-5 p-2 ps-3">
-                <input type="date" placeholder="Data" class="col-2 p-2 ps-3">
-                <input type="text" placeholder="Hora" class="col-2 p-2 ps-3">
-            </div>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                (Carrossel dos carros)
-                <div class="alugue-container-text mt-5 dyn-font">
-                    <p class="text-purple dyn-font">Grupo LE - SUV Especial</p>
-                    <p class="dyn-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea et iure.</p>
-                </div>
-                <a href="#" class="btn-3 btn mt-4 px-5 py-2 dyn-font">Todos os Grupos</a>
-            </div>
-        </div>
-    </section>
-    <!-- Fim Alugue seu carro -->
 
     <!-- Footer -->
     <footer class="bg-light text-black">
